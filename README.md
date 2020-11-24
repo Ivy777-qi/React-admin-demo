@@ -10,18 +10,19 @@ Effect drawing
 
 Quick start
 ===
-##First 
+First 
 --
-###git clone git@github.com:Ivy777-qi/React-admin-demo.git
+git clone git@github.com:Ivy777-qi/React-admin-demo.git
+
+Second
+--
+cd client
+npm i
+npm run start
+
+Third
 ---
-##Second
-###cd client
-###npm i
-###npm run start
----
-##Third
-###cd ../server
-###npm i 
-###npm run start 
----
+cd ../server
+npm i 
+npm run start 
 
