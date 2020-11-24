@@ -18,11 +18,11 @@ Second
 --
 cd client <br> 
 npm i <br> 
-npm run start 
+npm start 
 
 Third
 ---
 cd ../server <br> 
 npm i  <br> 
-npm run start 
+npm start 
 
