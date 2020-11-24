@@ -16,13 +16,13 @@ git clone git@github.com:Ivy777-qi/React-admin-demo.git
 
 Second
 --
-cd client
-npm i
-npm run start
+cd client \<br> 
+npm i \<br> 
+npm run start 
 
 Third
 ---
-cd ../server
-npm i 
+cd ../server \<br> 
+npm i  \<br> 
 npm run start 
 
