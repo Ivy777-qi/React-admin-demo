@@ -1,0 +1,70 @@
+.home-wrapper {
+  height: 100%;
+}
+.home-wrapper .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.home-wrapper .trigger:hover {
+  color: #1890ff;
+}
+.home-wrapper .logo {
+  height: 32px;
+  line-height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+  color: aliceblue;
+  text-align: center;
+}
+.home-wrapper .header {
+  position: relative;
+}
+.home-wrapper .header .title {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  bottom: -15px;
+  left: 100px;
+}
+.home-wrapper .header .title::after {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: -25px;
+  transform: translateX(50%);
+  border-top: 20px solid white;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+.home-wrapper .header .header-left {
+  float: left;
+}
+.home-wrapper .header .header-right {
+  float: right;
+  margin-right: 20px;
+}
+.home-wrapper .header .weather {
+  position: absolute;
+  height: 50px;
+  bottom: -5px;
+  right: 20px;
+}
+.home-wrapper .header .weather img {
+  margin: 0 5px;
+}
+.home-wrapper .site-layout .site-layout-background {
+  background: #fff;
+  margin: 24px 16px;
+  height: 80px;
+}
+.home-wrapper .tool Card {
+  float: left;
+}
+.home-wrapper .tool meta {
+  meta: right;
+}
+/*# sourceMappingURL=./home.css.map */

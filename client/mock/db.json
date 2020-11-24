@@ -1,0 +1,51 @@
+{
+  "login": [
+    {
+      "username": "amin",
+      "password": "admin",
+      "id": "1"
+    },
+    {
+      "username": "112",
+      "password": "12312321",
+      "id": "U8yLlXc"
+    },
+    {
+      "username": "11",
+      "password": "21212",
+      "role_id": {
+        "menus": []
+      },
+      "id": "oyGxoOq"
+    },
+    {
+      "username": "121",
+      "password": "2313",
+      "role_id": {
+        "menus": []
+      },
+      "id": "duHkfqJ"
+    },
+    {
+      "username": "12222231",
+      "password": "13213132",
+      "role_id": {
+        "menus": []
+      },
+      "id": "qPeBliZ"
+    },
+    {
+      "username": "1212",
+      "password": "121313",
+      "role_id": {
+        "menus": []
+      },
+      "id": "xcYUkSj"
+    },
+    {
+      "username": "121",
+      "password": "2312313",
+      "id": "Lpvy9rH"
+    }
+  ]
+}

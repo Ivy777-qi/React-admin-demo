@@ -1,0 +1,74 @@
+.home-wrapper {
+  height: 100%;
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo {
+    height: 32px;
+    line-height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 16px;
+    color: aliceblue;
+    text-align: center;
+  }
+  .header {
+    position: relative;
+    .title {
+      position: absolute;
+      font-size: 20px;
+      font-weight: 500;
+      bottom: -15px;
+      left: 100px;
+      &::after {
+        content: "";
+        position: absolute;
+        right: 50%;
+        bottom: -25px;
+        transform: translateX(50%);
+        border-top: 20px solid white;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid transparent;
+      }
+    }
+    .header-left {
+      float: left;
+    }
+    .header-right {
+      float: right;
+      margin-right: 20px;
+    }
+    .weather {
+      position: absolute;
+      height: 50px;
+      bottom: -5px;
+      right: 20px;
+      img {
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+    margin: 24px 16px;
+    height: 80px;
+  }
+  .tool {
+    Card {
+      float: left;
+    }
+    meta {
+      meta: right;
+    }
+  }
+}

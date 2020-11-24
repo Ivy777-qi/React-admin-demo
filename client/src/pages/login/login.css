@@ -1,0 +1,50 @@
+.login {
+  background-color: #162666;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.login .login-header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, #000000 100%);
+}
+.login .login-header h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px auto;
+}
+.login .login-header .tip {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-right: 50px;
+}
+.login .login-box {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  width: 400px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+  padding: 20px 40px;
+}
+.login .login-box .login-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login .login-box .login-content {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.login .login-box .login-content Button {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=./login.css.map */
